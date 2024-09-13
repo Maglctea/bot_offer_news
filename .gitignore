@@ -1,0 +1,5 @@
+.venv
+venv
+.env
+.idea
+bot_offer_news.egg-info

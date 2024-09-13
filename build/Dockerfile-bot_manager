@@ -1,0 +1,10 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY . .
+
+RUN pip install python-dotenv aiogram
+
+
+CMD ["python", "/app/src/bot_manager/main.py"]
