@@ -74,7 +74,7 @@ services:
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
     ports:
-      - "8100:80"
+      - "80:80"
 
 volumes:
   postgresql-data-test:
